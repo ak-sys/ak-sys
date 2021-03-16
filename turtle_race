@@ -1,0 +1,17 @@
+from turtle import *
+
+from random import *
+
+a=randint(0,2000)
+
+speed(0)
+
+getscreen().bgcolor('black')
+
+color('cyan')
+
+for i in range(0,a):
+
+	fd(100/a)	lt(a)
+
+	fd(i)
